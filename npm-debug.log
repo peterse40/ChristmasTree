@@ -1,0 +1,163 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-native',
+1 verbose cli   'run-ios' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 verbose config Skipping project config: /Users/elizabethpeters/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData react-native
+9 silly fetchPackageMetaData run-ios
+10 silly fetchNamedPackageData react-native
+11 silly mapToRegistry name react-native
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'react-native',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   escapedName: 'react-native',
+14 silly mapToRegistry   name: 'react-native',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/react-native
+16 silly fetchNamedPackageData run-ios
+17 silly mapToRegistry name run-ios
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'run-ios',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   escapedName: 'run-ios',
+20 silly mapToRegistry   name: 'run-ios',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri https://registry.npmjs.org/run-ios
+22 verbose request uri https://registry.npmjs.org/run-ios
+23 verbose request no auth needed
+24 info attempt registry request try #1 at 8:27:53 AM
+25 verbose request id 6cff0d3cc574ad50
+26 http request GET https://registry.npmjs.org/run-ios
+27 verbose request uri https://registry.npmjs.org/react-native
+28 verbose request no auth needed
+29 info attempt registry request try #1 at 8:27:53 AM
+30 http request GET https://registry.npmjs.org/react-native
+31 http 404 https://registry.npmjs.org/run-ios
+32 verbose headers { 'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=0',
+32 verbose headers   'content-length': '2',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Wed, 06 Dec 2017 14:27:54 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-pdk17835-PDK',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1512570474.139813,VS0,VE548',
+32 verbose headers   vary: 'Accept-Encoding' }
+33 silly get cb [ 404,
+33 silly get   { 'content-type': 'application/json',
+33 silly get     'cache-control': 'max-age=0',
+33 silly get     'content-length': '2',
+33 silly get     'accept-ranges': 'bytes',
+33 silly get     date: 'Wed, 06 Dec 2017 14:27:54 GMT',
+33 silly get     via: '1.1 varnish',
+33 silly get     connection: 'keep-alive',
+33 silly get     'x-served-by': 'cache-pdk17835-PDK',
+33 silly get     'x-cache': 'MISS',
+33 silly get     'x-cache-hits': '0',
+33 silly get     'x-timer': 'S1512570474.139813,VS0,VE548',
+33 silly get     vary: 'Accept-Encoding' } ]
+34 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/run-ios
+34 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+34 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:280:14)
+34 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+34 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+34 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+34 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+34 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+34 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+34 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+34 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+34 silly fetchPackageMetaData  error for run-ios { Error: Registry returned 404 for GET on https://registry.npmjs.org/run-ios
+34 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+34 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:280:14)
+34 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+34 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+34 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+34 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+34 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+34 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+34 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+34 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12) pkgid: 'run-ios', statusCode: 404, code: 'E404' }
+35 http 200 https://registry.npmjs.org/react-native
+36 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+36 verbose headers   server: 'UploadServer',
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   'last-modified': 'Wed, 6 Dec 2017 3:02:54 GMT',
+36 verbose headers   etag: '"5a275dde-12e571"',
+36 verbose headers   'content-length': '1238385',
+36 verbose headers   'accept-ranges': 'bytes',
+36 verbose headers   date: 'Wed, 06 Dec 2017 14:27:54 GMT',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   age: '431',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-served-by': 'cache-pdk17840-PDK',
+36 verbose headers   'x-cache': 'HIT',
+36 verbose headers   'x-cache-hits': '1',
+36 verbose headers   'x-timer': 'S1512570474.139471,VS0,VE2',
+36 verbose headers   vary: 'Accept-Encoding, Accept' }
+37 silly get cb [ 200,
+37 silly get   { 'content-type': 'application/json; charset=UTF-8',
+37 silly get     server: 'UploadServer',
+37 silly get     'cache-control': 'max-age=300',
+37 silly get     'last-modified': 'Wed, 6 Dec 2017 3:02:54 GMT',
+37 silly get     etag: '"5a275dde-12e571"',
+37 silly get     'content-length': '1238385',
+37 silly get     'accept-ranges': 'bytes',
+37 silly get     date: 'Wed, 06 Dec 2017 14:27:54 GMT',
+37 silly get     via: '1.1 varnish',
+37 silly get     age: '431',
+37 silly get     connection: 'keep-alive',
+37 silly get     'x-served-by': 'cache-pdk17840-PDK',
+37 silly get     'x-cache': 'HIT',
+37 silly get     'x-cache-hits': '1',
+37 silly get     'x-timer': 'S1512570474.139471,VS0,VE2',
+37 silly get     vary: 'Accept-Encoding, Accept' } ]
+38 verbose get saving react-native to /Users/elizabethpeters/.npm/registry.npmjs.org/react-native/.cache.json
+39 verbose correctMkdir /Users/elizabethpeters/.npm correctMkdir not in flight; initializing
+40 silly rollbackFailedOptional Starting
+41 silly rollbackFailedOptional Finishing
+42 silly runTopLevelLifecycles Finishing
+43 silly install printInstalled
+44 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/run-ios
+44 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+44 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:280:14)
+44 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+44 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+44 verbose stack     at emitTwo (events.js:106:13)
+44 verbose stack     at Request.emit (events.js:191:7)
+44 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+44 verbose stack     at emitOne (events.js:96:13)
+44 verbose stack     at Request.emit (events.js:188:7)
+44 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+45 verbose statusCode 404
+46 verbose pkgid run-ios
+47 verbose cwd /Users/elizabethpeters/ChristmasTree
+48 error Darwin 17.2.0
+49 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "react-native" "run-ios"
+50 error node v6.11.4
+51 error npm  v3.10.10
+52 error code E404
+53 error 404 Registry returned 404 for GET on https://registry.npmjs.org/run-ios
+54 error 404
+55 error 404 'run-ios' is not in the npm registry.
+56 error 404 You should bug the author to publish it (or use the name yourself!)
+57 error 404 Note that you can also install from a
+58 error 404 tarball, folder, http url, or git url.
+59 verbose exit [ 1, true ]
